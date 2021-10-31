@@ -1,0 +1,284 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+
+}
+
+header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    font-size: 24px;
+    color: #F9FAF8;
+    padding: 10px 50px;
+
+}
+.header-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+header img {
+    width: 50px;
+    height: 50px;
+  }
+
+
+ul {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+header a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero {
+    padding: 50px;
+    height: 80vh;
+    background-color: #1F2937;
+    display: flex;
+    flex-flow: row wrap;
+    color: #F9FAF8;
+    justify-content:center;
+    align-items: center;
+    gap:25px;
+
+
+
+}
+
+.hero-left {
+    width: 500px;
+    display: flex;
+    flex-flow: column;
+
+}
+
+.hero-left button{
+    width: fit-content;
+    color: #F9FAF8;
+    padding: 5px 25px;
+    text-decoration: none;
+    background: none;
+    border: 2px solid #F9FAF8;
+    border-radius: 7px;
+}
+
+.hero-left span{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.hero-image {
+
+    height: 343px;
+    display: flex;
+}
+
+
+.info {
+    padding: 50px;
+    height: 100vh;
+    background-color: #ffffff;
+    display: flex;
+    flex-flow: column nowrap;
+    color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    flex: 2;
+
+}
+
+.info-header {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    display: flex;
+
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    transition: transform .2s;
+
+
+}
+
+.card img{
+    display: flex;
+    height: 250px;
+    width: 250px;
+    border: 2px solid #3882F6;
+    border-radius: 12px;
+    object-fit:cover;
+    
+}
+
+
+  
+.gallery{
+    margin: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 33px;
+    justify-content: center;
+    align-content: space-around;
+}
+
+
+.exhibit {
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: center;
+
+}
+
+.card:hover {
+    transform: scale(1.3);
+}
+
+.caption {
+    width: 250px;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+  
+}
+
+
+
+.quote-page {
+    padding: 50px;
+    height: 40vh;
+    background-color: #E5E7EB;
+    display: flex;
+    color: #1F2937;
+    justify-content:space-around;
+    align-items: center;
+    flex: 3;
+
+
+
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    display: flex;
+    padding:50px;
+    margin: 0;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.quoted {
+    margin-right: 50px;
+    display: flex;
+    font-size: 23px;
+    font-weight: 900;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+
+.call-page {
+    height: 40vh;
+    padding: 50px;
+    background-color: #ffffff;
+    flex-flow: column wrap;
+    display: flex;
+    color: #F9FAF8;
+    justify-content:center;
+    align-items: center;
+    
+
+}
+
+.bucket-container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+
+}
+
+.bucket {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background-color: #3882F6;
+    padding: 25px 75px;
+    border-radius: 8px;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.call-left {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.call-button {
+    padding: 5px;
+    display: flex;
+    background: none;
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+    border-radius: 7px;
+}
+
+.call-button a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.call-title {
+    display: flex;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 0;
+    
+}
+
+.call-detail {
+    display: flex;
+    margin: 0;
+}
+
+
+footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 12px;
+    color: #F9FAF8;
+    padding: 20px;
+
+}
+
+button:hover {
+    cursor:pointer;
+    
+}
